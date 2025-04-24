@@ -1,0 +1,15 @@
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.deps.json
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.pdb
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.pdb
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.AssemblyReference.cache
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfoInputs.cache
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfo.cs
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.CoreCompileInputs.cache
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaura.6AB96A7C.Up2Date
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\refint\Restaurants.Application.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.pdb
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\ref\Restaurants.Application.dll

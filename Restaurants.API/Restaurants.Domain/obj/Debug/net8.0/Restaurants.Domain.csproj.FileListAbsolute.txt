@@ -1,0 +1,12 @@
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.deps.json
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\bin\Debug\net8.0\Restaurants.Domain.pdb
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.AssemblyInfoInputs.cache
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.AssemblyInfo.cs
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.CoreCompileInputs.cache
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\refint\Restaurants.Domain.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll
+E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.AssemblyReference.cache
