@@ -5014,23 +5014,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alvia\\.nuget\\packages\\": {},
+    "C:\\Users\\abdul\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\17-4\\Clean Architecture\\Restaurants.API\\Restaurants.API\\Restaurants.API.csproj",
+      "projectUniqueName": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Restaurants.API.csproj",
       "projectName": "Restaurants.API",
-      "projectPath": "E:\\17-4\\Clean Architecture\\Restaurants.API\\Restaurants.API\\Restaurants.API.csproj",
-      "packagesPath": "C:\\Users\\alvia\\.nuget\\packages\\",
-      "outputPath": "E:\\17-4\\Clean Architecture\\Restaurants.API\\Restaurants.API\\obj\\",
+      "projectPath": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Restaurants.API.csproj",
+      "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
+      "outputPath": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\alvia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5045,11 +5045,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\17-4\\Clean Architecture\\Restaurants.API\\Restaurants.Application\\Restaurants.Application.csproj": {
-              "projectPath": "E:\\17-4\\Clean Architecture\\Restaurants.API\\Restaurants.Application\\Restaurants.Application.csproj"
+            "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Application\\Restaurants.Application.csproj": {
+              "projectPath": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Application\\Restaurants.Application.csproj"
             },
-            "E:\\17-4\\Clean Architecture\\Restaurants.API\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
-              "projectPath": "E:\\17-4\\Clean Architecture\\Restaurants.API\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj"
+            "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj": {
+              "projectPath": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj"
             }
           }
         }
@@ -5064,7 +5064,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5118,7 +5118,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

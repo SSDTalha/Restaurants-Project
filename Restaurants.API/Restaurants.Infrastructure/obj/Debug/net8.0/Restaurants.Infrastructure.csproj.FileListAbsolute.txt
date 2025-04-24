@@ -17,3 +17,23 @@ E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Infrastructure\obj\Debug\
 E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.pdb
 E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.genruntimeconfig.cache
 E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\ref\Restaurants.Infrastructure.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.deps.json
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.runtimeconfig.json
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Infrastructure.pdb
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Application.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Domain.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Application.pdb
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\bin\Debug\net8.0\Restaurants.Domain.pdb
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.csproj.AssemblyReference.cache
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.AssemblyInfoInputs.cache
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.AssemblyInfo.cs
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.sourcelink.json
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaura.2EEA3570.Up2Date
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\refint\Restaurants.Infrastructure.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.pdb
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\Restaurants.Infrastructure.genruntimeconfig.cache
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Infrastructure\obj\Debug\net8.0\ref\Restaurants.Infrastructure.dll

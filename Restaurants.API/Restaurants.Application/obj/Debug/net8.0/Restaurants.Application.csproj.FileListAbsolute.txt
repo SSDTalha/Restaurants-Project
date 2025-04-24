@@ -13,3 +13,19 @@ E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net
 E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\refint\Restaurants.Application.dll
 E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.pdb
 E:\17-4\Clean Architecture\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\ref\Restaurants.Application.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.deps.json
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Application.pdb
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\bin\Debug\net8.0\Restaurants.Domain.pdb
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.AssemblyReference.cache
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfoInputs.cache
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.AssemblyInfo.cs
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.csproj.CoreCompileInputs.cache
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.sourcelink.json
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaura.6AB96A7C.Up2Date
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\refint\Restaurants.Application.dll
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\Restaurants.Application.pdb
+D:\Talha\Restaurants-Project\Restaurants.API\Restaurants.Application\obj\Debug\net8.0\ref\Restaurants.Application.dll

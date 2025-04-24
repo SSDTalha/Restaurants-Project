@@ -40,6 +40,7 @@ namespace Restaurants.Infrastructure.Persistence
                Expression.Convert(parameter, typeof(AuditableTenantEntity)), nameof(AuditableTenantEntity.CompanyId));
                     var companyIdValue = Expression.Constant((long)(_currentUser.CompanyId ?? 0), typeof(long));
 
+
                     var body = Expression.Equal(property, companyIdValue);
                     var lambda = Expression.Lambda(body, parameter);
                     modelBuilder.Entity(entityType.ClrType).HasQueryFilter(lambda);
