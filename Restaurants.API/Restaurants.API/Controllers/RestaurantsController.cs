@@ -29,24 +29,25 @@ public class RestaurantsController : ControllerBase
     private readonly IMediator _mediator;
     private readonly IGenericRepository<Restaurant> _restaurantRepo;
     private readonly IConfiguration _config;
-    private readonly IdentityUser _user;
-    private readonly JwtService _jwtService;
+    //private readonly IdentityUser _user;
+    //private readonly JwtService _jwtService;
 
-    public RestaurantsController(IMediator mediator, IGenericRepository<Restaurant> restaurantRepo, IConfiguration config,IdentityUser user,JwtService jwtService)
+    public RestaurantsController(IMediator mediator, IGenericRepository<Restaurant> restaurantRepo, IConfiguration config /* , IdentityUser user, JwtService jwtService  */)
     {
         _mediator = mediator;
         _restaurantRepo = restaurantRepo;
         _config = config;
-        _user = user;
-        _jwtService = jwtService;
+        //_user = user;
+        //_jwtService = jwtService;
     }
 
  
 
     [HttpGet]
-    //[Authorize]
+    [Authorize]
     public async Task<IActionResult> GetAll()
     {
+        var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
         var restaurants = await _mediator.Send(new GetAllRestaurantsQuery());
         return Ok(restaurants);
     }

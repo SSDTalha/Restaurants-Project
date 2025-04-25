@@ -402,22 +402,6 @@
   },
   {
     "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
-    "Method": "Login",
-    "RelativePath": "api/restaurants/login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Restaurants.API.Controllers.CustomLoginRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
     "Method": "GetOpenRestaurants",
     "RelativePath": "api/restaurants/open",
     "HttpMethod": "GET",
@@ -440,16 +424,6 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
-    "Method": "GetSecureData",
-    "RelativePath": "api/restaurants/secure-data",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   }
 ]

@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\identity\\loginresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\identity\\loginresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF732C94-DB6C-4657-8745-5FED187F0DF7}|Restaurants.Domain\\Restaurants.Domain.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF732C94-DB6C-4657-8745-5FED187F0DF7}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\repositories\\restaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,40 +55,8 @@
       "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\controllers\\restaurantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.api\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81774208-1525-48E5-8BE4-0377D6EBEFA3}|Restaurants.API\\Restaurants.API.csproj|solutionrelative:restaurants.api\\extensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\identity\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF732C94-DB6C-4657-8745-5FED187F0DF7}|Restaurants.Domain\\Restaurants.Domain.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.domain\\entities\\auditabletenantentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF732C94-DB6C-4657-8745-5FED187F0DF7}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\entities\\auditabletenantentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF732C94-DB6C-4657-8745-5FED187F0DF7}|Restaurants.Domain\\Restaurants.Domain.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF732C94-DB6C-4657-8745-5FED187F0DF7}|Restaurants.Domain\\Restaurants.Domain.csproj|solutionrelative:restaurants.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|solutionrelative:restaurants.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F215EE9B-6379-468E-B36B-23F4E8A8C330}|Restaurants.Infrastructure\\Restaurants.Infrastructure.csproj|d:\\talha\\restaurants-project\\restaurants.api\\restaurants.infrastructure\\migrations\\20250422095758_identityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,52 +114,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginResponseModel.cs",
-              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs",
-              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs",
-              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs*",
-              "RelativeToolTip": "Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:42:41.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WebApplicationBuilderExtensions.cs",
-              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
-              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
-              "RelativeToolTip": "Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T09:50:08.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "RestaurantsController.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Controllers\\RestaurantsController.cs",
               "RelativeDocumentMoniker": "Restaurants.API\\Controllers\\RestaurantsController.cs",
               "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Controllers\\RestaurantsController.cs",
               "RelativeToolTip": "Restaurants.API\\Controllers\\RestaurantsController.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAUwIgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T07:55:42.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Restaurants.API\\appsettings.json",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.json",
+              "RelativeToolTip": "Restaurants.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T10:07:58.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Restaurants.API\\appsettings.Development.json",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.Development.json",
+              "RelativeToolTip": "Restaurants.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T10:05:39.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Program.cs",
               "RelativeDocumentMoniker": "Restaurants.API\\Program.cs",
               "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Program.cs*",
               "RelativeToolTip": "Restaurants.API\\Program.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAADgvzMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAtwFYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T10:09:01.753Z",
               "EditorCaption": ""
@@ -159,45 +167,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Restaurants.API\\appsettings.json",
-              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.json",
-              "RelativeToolTip": "Restaurants.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T10:07:58.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Restaurants.API\\appsettings.Development.json",
-              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\appsettings.Development.json",
-              "RelativeToolTip": "Restaurants.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-23T10:05:39.952Z",
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T11:40:22.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RestaurantsRepository.cs",
-              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
-              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
-              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
-              "RelativeToolTip": "Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Title": "WebApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "Restaurants.API\\Extensions\\WebApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T07:47:42.93Z",
+              "WhenOpened": "2025-04-24T09:50:08.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:59:25.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Restaurants.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Restaurants.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:23:02.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginResponseModel.cs",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs",
+              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Identity\\LoginResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:42:41.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Identity\\TokenService.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Identity\\TokenService.cs",
@@ -210,7 +244,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Helpers\\JwtService.cs",
+              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Helpers\\JwtService.cs",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Helpers\\JwtService.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Helpers\\JwtService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:44:01.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RestaurantsRepository.cs",
+              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
+              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
+              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
+              "RelativeToolTip": "Restaurants.Infrastructure\\Repositories\\RestaurantsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:47:42.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "JwtSettings.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Identity\\JwtSettings.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Identity\\JwtSettings.cs",
@@ -223,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AuditableTenantEntity.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Domain\\Entities\\AuditableTenantEntity.cs",
               "RelativeDocumentMoniker": "Restaurants.Domain\\Entities\\AuditableTenantEntity.cs",
@@ -236,33 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Restaurants.Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Restaurants.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:23:02.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "Restaurants.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T11:40:22.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20250422095758_IdentityAdded.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Migrations\\20250422095758_IdentityAdded.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Migrations\\20250422095758_IdentityAdded.cs",
@@ -275,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20250422095758_IdentityAdded.Designer.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Migrations\\20250422095758_IdentityAdded.Designer.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Migrations\\20250422095758_IdentityAdded.Designer.cs",
@@ -288,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RestaurantsDbContext.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Persistence\\RestaurantsDbContext.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Persistence\\RestaurantsDbContext.cs",
@@ -301,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Restaurants.API\\Properties\\launchSettings.json",
@@ -314,8 +348,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Restaurants.API",
+              "DocumentIndex": 17,
+              "Title": "Restaurants.API.csproj",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Restaurants.API.csproj",
               "RelativeDocumentMoniker": "Restaurants.API\\Restaurants.API.csproj",
               "ToolTip": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.API\\Restaurants.API.csproj",
@@ -327,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Application\\Interfaces\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "Restaurants.Application\\Interfaces\\ICurrentUserService.cs",
@@ -340,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "GetRestaurantByIdQuery.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Application\\Restaurants\\Queries\\GetRestaurantById\\GetRestaurantByIdQuery.cs",
               "RelativeDocumentMoniker": "Restaurants.Application\\Restaurants\\Queries\\GetRestaurantById\\GetRestaurantByIdQuery.cs",
@@ -353,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "CurrentUserService.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Services\\CurrentUserService.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Services\\CurrentUserService.cs",
@@ -366,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "DesignTimeCurrentUserService.cs",
               "DocumentMoniker": "D:\\Talha\\Restaurants-Project\\Restaurants.API\\Restaurants.Infrastructure\\Services\\DesignTimeCurrentUserService.cs",
               "RelativeDocumentMoniker": "Restaurants.Infrastructure\\Services\\DesignTimeCurrentUserService.cs",
