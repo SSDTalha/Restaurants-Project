@@ -1,12 +1,8 @@
-﻿using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
+﻿using System.Security.Cryptography;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
+using Restaurants.Application.Interfaces;
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
@@ -32,16 +28,17 @@ public class RestaurantsController : ControllerBase
     private readonly IdentityUser _user;
     private readonly JwtService _jwtService;
 
-    public RestaurantsController(IMediator mediator, IGenericRepository<Restaurant> restaurantRepo, IConfiguration config,IdentityUser user,JwtService jwtService)
+    public RestaurantsController(IMediator mediator, IGenericRepository<Restaurant> restaurantRepo, IConfiguration config, IdentityUser user, JwtService jwtService, ITokenService tokenService)
     {
         _mediator = mediator;
         _restaurantRepo = restaurantRepo;
         _config = config;
         _user = user;
         _jwtService = jwtService;
+        _tokenService = tokenService;
     }
 
- 
+
 
     [HttpGet]
     //[Authorize]
@@ -118,8 +115,25 @@ public class RestaurantsController : ControllerBase
         int id = await _mediator.Send(command);
         return CreatedAtAction(nameof(GetById), new { id }, null);
     }
-   
 
-    
+
+    [HttpPost("register")] //aacount register
+
+    public async Task<ActionResult<(User)>>
+     {
+          using var hmac = new HMACSHA512();
+
+    var user = new User
+    {
+        //   PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(identityregister),
+        PasswordSalt = hmac.Key,
+    };
+
+    context.User.Add(user);
 
 }
+
+
+
+
+

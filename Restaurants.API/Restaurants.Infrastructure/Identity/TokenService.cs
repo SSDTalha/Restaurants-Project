@@ -1,40 +1,41 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Restaurants.Application.Interfaces;
 using Restaurants.Domain.Entities;
 
 
 namespace Restaurants.Infrastructure.Identity
 {
-    public class TokenService(IOptions<JwtSettings> jwtSettings)
+    public class TokenService(IConfiguration config) : ITokenService
     {
 
-        private readonly JwtSettings _jwtSettings = jwtSettings.Value;
-
-        public string GenerateJwtToken(User user)
+        public string CreateToken(User user)
         {
+            var tokenKey = config["TokenKey"] ?? throw new Exception("Cannot acess token key from appsetting");
+            if (tokenKey.Length < 64)
+            {
+                throw new Exception("Your token key needs to be longer");
+            }
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenKey));
+
             var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.NameIdentifier, user.Id),
-        new Claim(ClaimTypes.Name, user.UserName ?? string.Empty),
-        new Claim("CompanyId", user.CompanyId.ToString()) // 👈 Add CompanyId here
-    };
+            {
+                new (ClaimTypes.NameIdentifier, user.UserName)
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.SecretKey));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: _jwtSettings.Issuer,
-                audience: _jwtSettings.Audience,
-                claims: claims,
-                expires: DateTime.Now.AddDays(1),
-                signingCredentials: creds
-            );
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            };
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(claims),
+                Expires = DateTime.UtcNow.AddDays(7),
+                SigningCredentials = creds
+            };
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
-
     }
 }

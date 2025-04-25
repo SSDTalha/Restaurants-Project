@@ -4,8 +4,8 @@ using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
 using Restaurants.API.Extensions;
 using Restaurants.Application.Extensions;
+using Restaurants.Application.Interfaces;
 using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
-using Restaurants.Domain.Entities;
 using Restaurants.Infrastructure.Extensions;
 using Restaurants.Infrastructure.Identity;
 using Restaurants.Infrastructure.Seeders;
@@ -29,7 +29,7 @@ namespace Restaurants.API
             builder.Services.AddApplication();
             builder.Services.AddInfraStructure(builder.Configuration);
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
-
+            builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<SqlConnection>(sp => new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
@@ -44,29 +44,43 @@ namespace Restaurants.API
             //builder.Host.UseSerilog((context, configuration) => configuration
             //.WriteTo.Console());
 
-            builder.Services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(options =>
-            {
-                options.RequireHttpsMetadata = false;
-                options.SaveToken = true;
-                options.TokenValidationParameters = new TokenValidationParameters
+            //builder.Services.AddAuthentication(options =>
+            //{
+            //    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            //    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            //    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            //}).AddJwtBearer(options =>
+            //{
+            //    options.RequireHttpsMetadata = false;
+            //    options.SaveToken = true;
+            //    options.TokenValidationParameters = new TokenValidationParameters
 
+            //    {
+            //        ValidateIssuerSigningKey = true,
+            //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]!)),
+            //        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+            //        ValidAudience = builder.Configuration["JwtSettings:Audience"],
+            //        ValidateIssuer = true,
+            //        ValidateAudience = true,
+            //        ValidateLifetime = true
+            //    };
+            //});
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+            {
+                var tokenkey = builder.Configuration["TokenKey"] ?? throw new Exception("Toekn key not found");
+                options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]!)),
-                    ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
-                    ValidAudience = builder.Configuration["JwtSettings:Audience"],
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenkey)),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+
                 };
             });
+
+
             builder.Services.AddAuthorization();
-            
+
             var app = builder.Build();
 
             var scope = app.Services.CreateScope();
@@ -81,7 +95,7 @@ namespace Restaurants.API
 
             app.UseHttpsRedirection();
 
-            app.MapGroup("api/identity").MapIdentityApi<User>();
+            //app.MapGroup("api/identity").MapIdentityApi<User>();
             app.UseAuthentication();
             app.UseAuthorization();
 
