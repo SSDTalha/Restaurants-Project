@@ -1,6 +1,4 @@
-﻿
-
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Restaurants.Application.Interfaces;
@@ -35,6 +33,9 @@ namespace Restaurants.Infrastructure.Extensions
             //services.AddAutoMapper(typeof(ServiceCollectionExtensions).Assembly);
             services.AddIdentityApiEndpoints<User>()
                 .AddEntityFrameworkStores<RestaurantsDbContext>();
+
+            //         services.AddIdentity<User, IdentityRole>()
+            //.AddEntityFrameworkStores<RestaurantsDbContext>().AddDefaultTokenProviders();
             services.AddScoped<ICurrentUserService, CurrentUserService>();
             services.AddHttpContextAccessor();
         }

@@ -567,3 +567,4 @@ E:\24-4\Restaurants-Project\Restaurants.API\Restaurants.API\obj\Debug\net8.0\ref
 E:\24-4\Restaurants-Project\Restaurants.API\Restaurants.API\obj\Debug\net8.0\Restaurants.API.pdb
 E:\24-4\Restaurants-Project\Restaurants.API\Restaurants.API\obj\Debug\net8.0\Restaurants.API.genruntimeconfig.cache
 E:\24-4\Restaurants-Project\Restaurants.API\Restaurants.API\obj\Debug\net8.0\ref\Restaurants.API.dll
+E:\24-4\Restaurants-Project\Restaurants.API\Restaurants.API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll

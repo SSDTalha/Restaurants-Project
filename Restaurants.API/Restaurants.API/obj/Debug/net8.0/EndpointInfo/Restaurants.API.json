@@ -201,33 +201,21 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomLoginRequest"
+                "$ref": "#/components/schemas/LoginModelJwt"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomLoginRequest"
+                "$ref": "#/components/schemas/LoginModelJwt"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomLoginRequest"
+                "$ref": "#/components/schemas/LoginModelJwt"
               }
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/restaurants/secure-data": {
-      "get": {
-        "tags": [
-          "Restaurants"
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -641,20 +629,6 @@
         },
         "additionalProperties": false
       },
-      "CustomLoginRequest": {
-        "type": "object",
-        "properties": {
-          "username": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "DishDto": {
         "type": "object",
         "properties": {
@@ -763,6 +737,24 @@
           },
           "isEmailConfirmed": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginModelJwt": {
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

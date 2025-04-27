@@ -1,8 +1,11 @@
-﻿using System.Security.Cryptography;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Restaurants.Application.Interfaces;
+using Microsoft.IdentityModel.Tokens;
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
@@ -12,7 +15,6 @@ using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
 using Restaurants.Domain.Entities;
 using Restaurants.Domain.Repositories;
 using Restaurants.Domain.Specification;
-using Restaurants.Infrastructure.Helpers;
 namespace Restaurants.API.Controllers;
 
 
@@ -24,24 +26,28 @@ public class RestaurantsController : ControllerBase
 {
     private readonly IMediator _mediator;
     private readonly IGenericRepository<Restaurant> _restaurantRepo;
-    private readonly IConfiguration _config;
-    private readonly IdentityUser _user;
-    private readonly JwtService _jwtService;
-
-    public RestaurantsController(IMediator mediator, IGenericRepository<Restaurant> restaurantRepo, IConfiguration config, IdentityUser user, JwtService jwtService, ITokenService tokenService)
+    //private readonly IConfiguration _config;
+    //private readonly IdentityUser _user;
+    //private readonly JwtService _jwtService;
+    private readonly UserManager<User> _userManager;
+    private readonly IConfiguration _configuration;
+    public RestaurantsController(IMediator mediator, IGenericRepository<Restaurant> restaurantRepo, /*IConfiguration config ,IdentityUser user, JwtService jwtService, */UserManager<User> userManager, IConfiguration configuration /*, ITokenService tokenService */)
     {
         _mediator = mediator;
         _restaurantRepo = restaurantRepo;
-        _config = config;
-        _user = user;
-        _jwtService = jwtService;
-        _tokenService = tokenService;
+        //_config = config;
+        //_user = user;
+        //_jwtService = jwtService;
+        //_tokenService = tokenService;
+        _userManager = userManager;
+        _configuration = configuration;
+
     }
 
 
 
     [HttpGet]
-    //[Authorize]
+    [Authorize]
     public async Task<IActionResult> GetAll()
     {
         var restaurants = await _mediator.Send(new GetAllRestaurantsQuery());
@@ -117,19 +123,52 @@ public class RestaurantsController : ControllerBase
     }
 
 
-    [HttpPost("register")] //aacount register
+    //[HttpPost("register")] //aacount register
 
-    public async Task<ActionResult<(User)>>
-     {
-          using var hmac = new HMACSHA512();
+    //public async Task<ActionResult<(User)>>
+    // {
+    //      using var hmac = new HMACSHA512();
 
-    var user = new User
+    //var user = new User
+    //{
+    //    //   PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(identityregister),
+    //    PasswordSalt = hmac.Key,
+    //};
+
+    //context.User.Add(user);
+    [HttpPost("login")]
+    public IActionResult Login(LoginModelJwt model)
     {
-        //   PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(identityregister),
-        PasswordSalt = hmac.Key,
-    };
+        // Normally yahan database se user verify karte hain
+        // Filhal hardcode assume karte hain ke user valid hai
 
-    context.User.Add(user);
+        if (model.Email == "talhaimtiaz023@gmail.com" && model.Password == "Snoopd@g125")
+        {
+            // Token Generate karo
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes("YehKoiStrongSecretKeyHai123!YehKoiStrongSecretKeyHai123!YehKoiStrongSecretKeyHai123!YehKoiStrongSecretKeyHai123!"); // <-- Apni key
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+                    new Claim(ClaimTypes.Name, model.Email)
+                }),
+                Expires = DateTime.UtcNow.AddDays(1),
+                Issuer = "yourdomain.com",
+                Audience = "yourdomain.com",
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            var jwt = tokenHandler.WriteToken(token);
+
+            // Return JWT token
+            return Ok(new { token = jwt });
+        }
+
+        return Unauthorized();
+    }
 
 }
 
