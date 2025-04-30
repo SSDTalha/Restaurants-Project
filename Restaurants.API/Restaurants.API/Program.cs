@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
 using Restaurants.API.Extensions;
+using Restaurants.API.Middlewares;
 using Restaurants.Application.Extensions;
 using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
 using Restaurants.Domain.Entities;
@@ -31,6 +32,8 @@ namespace Restaurants.API
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
             //builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<SqlConnection>(sp => new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
+            // Restaurants.API
+            builder.Services.AddQuartzJobs();
 
 
 
@@ -92,7 +95,12 @@ namespace Restaurants.API
         ValidateIssuerSigningKey = true,
         ValidIssuer = builder.Configuration["JWT:ValidIssuer"],
         ValidAudience = builder.Configuration["JWT:ValidAudience"],
+        //IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
+        //    builder.Configuration["JWT:Secret"] ?? throw new InvalidOperationException("JWT:Secret is not configured")))
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"]))
+        //IssuerSigningKey = new SymmetricSecurityKey(
+        //        Encoding.ASCII.GetBytes("YehKoiStrongSecretKeyHai123!YehKoiStrongSecretKeyHai123!YehKoiStrongSecretKeyHai123!YehKoiStrongSecretKeyHai123!")
+        //  )
     };
 });
 
@@ -116,6 +124,8 @@ namespace Restaurants.API
 
             app.MapGroup("api/identity").MapIdentityApi<User>();
             app.UseAuthentication();
+            app.UseMiddleware<TokenDecoderMiddleware>();
+
             app.UseAuthorization();
 
             app.UseRequestTiming(app.Configuration);

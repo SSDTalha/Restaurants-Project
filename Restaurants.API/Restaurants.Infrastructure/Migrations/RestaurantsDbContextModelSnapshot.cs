@@ -199,8 +199,8 @@ namespace Restaurants.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CompanyId")
-                        .HasColumnType("int");
+                    b.Property<string>("CompanyId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactEmail")
                         .HasColumnType("nvarchar(max)");
@@ -220,6 +220,12 @@ namespace Restaurants.Infrastructure.Migrations
 
                     b.Property<bool>("HasDelivery")
                         .HasColumnType("bit");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("LastUpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("datetime2");

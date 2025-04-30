@@ -5,7 +5,10 @@
 
 
         string? UserName { get; }
-        long? CompanyId { get; }
+        string? CompanyId { get; }
+
+        //void SetUserId(string userId);
+        void SetCompanyId(string companyId);
     }
 
 }

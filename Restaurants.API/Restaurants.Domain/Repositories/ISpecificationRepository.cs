@@ -7,6 +7,8 @@ public interface IGenericRepository<T>
 
 public interface ISpecification<T> // Updated to be generic
 {
+    int? Id { get; }
     string ToWhereClause();
     object GetParameters();
+    
 }

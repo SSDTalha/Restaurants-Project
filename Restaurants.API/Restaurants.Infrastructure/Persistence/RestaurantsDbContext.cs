@@ -1,9 +1,9 @@
-﻿
-using System.Linq.Expressions;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore;
 using Restaurants.Application.Interfaces;
 using Restaurants.Domain.Entities;
+
 namespace Restaurants.Infrastructure.Persistence
 {
     public class RestaurantsDbContext : IdentityDbContext<User>
@@ -19,6 +19,7 @@ namespace Restaurants.Infrastructure.Persistence
         public DbSet<Restaurant> Restaurants { get; set; }
         public DbSet<Dish> Dishes { get; set; }
 
+        // OnModelCreating method to add global filter
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -31,27 +32,18 @@ namespace Restaurants.Infrastructure.Persistence
                 .WithOne()
                 .HasForeignKey(d => d.RestaurantId);
 
-            foreach (var entityType in modelBuilder.Model.GetEntityTypes())
-            {
-                if (typeof(AuditableTenantEntity).IsAssignableFrom(entityType.ClrType))
-                {
-                    var parameter = Expression.Parameter(entityType.ClrType, "e");
-                    var property = Expression.Property(
-               Expression.Convert(parameter, typeof(AuditableTenantEntity)), nameof(AuditableTenantEntity.CompanyId));
-                    var companyIdValue = Expression.Constant((long)(_currentUser.CompanyId ?? 0), typeof(long));
+            // Apply Global Filter for CompanyId to Restaurant entity
+            modelBuilder.Entity<Restaurant>()
+                .HasQueryFilter(r => r.CompanyId == _currentUser.CompanyId);
+
+            Console.WriteLine($"CompanyId in ICurrentUserService: {_currentUser.CompanyId}");
 
 
-                    var body = Expression.Equal(property, companyIdValue);
-                    var lambda = Expression.Lambda(body, parameter);
-                    modelBuilder.Entity(entityType.ClrType).HasQueryFilter(lambda);
-                    Console.WriteLine($"CompanyId in ICurrentUserService: {_currentUser.CompanyId}");
-                }
-            }
         }
 
+        // SaveChangesAsync to set auditing fields
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-
             var entries = ChangeTracker.Entries<AuditableTenantEntity>();
             foreach (var entry in entries)
             {
@@ -59,7 +51,7 @@ namespace Restaurants.Infrastructure.Persistence
                 {
                     entry.Entity.CreatedAt = DateTime.Now;
                     entry.Entity.CreatedBy = _currentUser.UserName ?? "System";
-                    entry.Entity.CompanyId = _currentUser.CompanyId ?? 0;
+                    entry.Entity.CompanyId = _currentUser.CompanyId ?? string.Empty;
                 }
                 if (entry.State == EntityState.Modified)
                 {
@@ -68,10 +60,7 @@ namespace Restaurants.Infrastructure.Persistence
                 }
             }
 
-
             return await base.SaveChangesAsync(cancellationToken);
         }
     }
-
 }
-

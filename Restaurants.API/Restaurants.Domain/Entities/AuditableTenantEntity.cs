@@ -3,7 +3,7 @@
 public class AuditableTenantEntity
 {
 
-    public long CompanyId { get; set; }
+    public string? CompanyId { get; set; }
 
     public DateTime CreatedAt { get; set; }
     public string? CreatedBy { get; set; }

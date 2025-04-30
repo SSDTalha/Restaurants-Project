@@ -14,6 +14,9 @@ namespace Restaurants.Domain.Entities
         public Address? Address { get; set; }
         public List<Dish>? Dishes { get; set; } = new();
 
-        public new int CompanyId { get; set; }
+
+        public bool IsActive { get; set; } = true;
+        public DateTime LastUpdatedAt { get; set; } = DateTime.UtcNow;
+        //public new long CompanyId { get; set; }
     }
 }

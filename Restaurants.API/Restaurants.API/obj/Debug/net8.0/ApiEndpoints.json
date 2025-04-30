@@ -418,26 +418,16 @@
   },
   {
     "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
-    "Method": "GetOpenRestaurants",
-    "RelativePath": "api/restaurants/open",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
-    "Method": "SearchRestaurants",
-    "RelativePath": "api/restaurants/search",
-    "HttpMethod": "GET",
+    "Method": "Register",
+    "RelativePath": "api/restaurants/register",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "model",
+        "Type": "Restaurants.Domain.Entities.RegisterModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

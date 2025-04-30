@@ -5,6 +5,12 @@ namespace Restaurants.Infrastructure.Services
     public class DesignTimeCurrentUserService : ICurrentUserService
     {
         public string? UserName => "migration-user";
-        public long? CompanyId => 1; // ya koi default dummy CompanyId
+        public string? CompanyId { get; private set; } = "1"; // ya koi default dummy CompanyId
+
+        // Implementing the interface method
+        public void SetCompanyId(string companyId)
+        {
+            CompanyId = companyId;
+        }
     }
 }
